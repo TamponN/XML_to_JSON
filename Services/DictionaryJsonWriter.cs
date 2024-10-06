@@ -7,7 +7,7 @@ using app.Models;
 namespace app.Services {
     public class DictionaryJsonWriter<T> : IDictionaryJsonWriter<T> where T : DictionaryBaseType {
         
-        public bool WriteToJson(List<T> dictionaries, string outputPath) {
+        public bool WriteToJson(Dictionary<string, List<T>> data, string outputPath) {
             try {
                 
                 var options = new JsonSerializerOptions {
