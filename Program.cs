@@ -79,8 +79,13 @@ class Program {
 
         string jsonFilePath = Path.ChangeExtension(xmlFilePath, ".json");
 
+        // Пихнул в словарь для удобства
+        var entriesEl = new Dictionary<string, List<DictionaryVar>>() {
+            { "Entries", entries }
+        };
+
         IDictionaryJsonWriter<DictionaryVar> writer = new DictionaryJsonWriter<DictionaryVar>();
-        bool success = writer.WriteToJson(entries, jsonFilePath);
+        bool success = writer.WriteToJson(entriesEl, jsonFilePath);
 
         if (success) {
             
