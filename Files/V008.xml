@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<packet>
+  <zglv>
+    <type>VidMp</type>
+    <version>2.2</version>
+    <date>06.05.2020</date>
+  </zglv>
+  <zap>
+    <IDVMP>1</IDVMP>
+    <VMPNAME>первичная медико-санитарная помощь</VMPNAME>
+    <DATEBEG>01.01.2010</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDVMP>2</IDVMP>
+    <VMPNAME>скорая, в том числе специализированная, медицинская помощь</VMPNAME>
+    <DATEBEG>01.01.2011</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDVMP>3</IDVMP>
+    <VMPNAME>специализированная, в том числе высокотехнологичная, медицинская помощь</VMPNAME>
+    <DATEBEG>01.01.2009</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDVMP>4</IDVMP>
+    <VMPNAME>паллиативная медицинская помощь</VMPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDVMP>11</IDVMP>
+    <VMPNAME>первичная доврачебная медико-санитарная помощь</VMPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDVMP>12</IDVMP>
+    <VMPNAME>первичная врачебная медико-санитарная помощь</VMPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDVMP>13</IDVMP>
+    <VMPNAME>первичная специализированная медико-санитарная помощь</VMPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDVMP>14</IDVMP>
+    <VMPNAME>первичная медико-санитарная помощь с применением телемедицинских технологий</VMPNAME>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDVMP>21</IDVMP>
+    <VMPNAME>скорая специализированная медицинская помощь</VMPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDVMP>22</IDVMP>
+    <VMPNAME>санитарно-авиационная медицинская помощь</VMPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDVMP>23</IDVMP>
+    <VMPNAME>скорая, в том числе специализированная, медицинская помощь с применением телемедицинских технологий</VMPNAME>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDVMP>31</IDVMP>
+    <VMPNAME>специализированная медицинская помощь</VMPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDVMP>32</IDVMP>
+    <VMPNAME>высокотехнологичная специализированная медицинская помощь</VMPNAME>
+    <DATEBEG>01.01.2013</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDVMP>33</IDVMP>
+    <VMPNAME>специализированная, в том числе высокотехнологичная, медицинская помощь с применением телемедицинских технологий</VMPNAME>
+    <DATEBEG>01.01.2019</DATEBEG>
+    <DATEEND/>
+  </zap>
+  <zap>
+    <IDVMP>101</IDVMP>
+    <VMPNAME>амбулаторно-поликлиническая помощь</VMPNAME>
+    <DATEBEG>01.01.2005</DATEBEG>
+    <DATEEND>31.12.2007</DATEEND>
+  </zap>
+  <zap>
+    <IDVMP>102</IDVMP>
+    <VMPNAME>первичная медико-санитарная помощь</VMPNAME>
+    <DATEBEG>01.01.2008</DATEBEG>
+    <DATEEND>31.12.2008</DATEEND>
+  </zap>
+  <zap>
+    <IDVMP>103</IDVMP>
+    <VMPNAME>неотложная медицинская помощь</VMPNAME>
+    <DATEBEG>01.01.2008</DATEBEG>
+    <DATEEND>31.12.2008</DATEEND>
+  </zap>
+  <zap>
+    <IDVMP>104</IDVMP>
+    <VMPNAME>первичная медико-санитарная, в том числе неотложная, медицинская помощь</VMPNAME>
+    <DATEBEG>01.01.2009</DATEBEG>
+    <DATEEND>31.12.2009</DATEEND>
+  </zap>
+  <zap>
+    <IDVMP>201</IDVMP>
+    <VMPNAME>скорая медицинская помощь</VMPNAME>
+    <DATEBEG>01.01.2005</DATEBEG>
+    <DATEEND>31.12.2007</DATEEND>
+  </zap>
+  <zap>
+    <IDVMP>202</IDVMP>
+    <VMPNAME>скорая медицинская помощь, в том числе специализированная (санитарно-авиационная)</VMPNAME>
+    <DATEBEG>01.01.2008</DATEBEG>
+    <DATEEND>31.12.2008</DATEEND>
+  </zap>
+  <zap>
+    <IDVMP>203</IDVMP>
+    <VMPNAME>скорая, в том числе специализированная (санитарно-авиационная), медицинская помощь</VMPNAME>
+    <DATEBEG>01.01.2009</DATEBEG>
+    <DATEEND>31.12.2010</DATEEND>
+  </zap>
+  <zap>
+    <IDVMP>301</IDVMP>
+    <VMPNAME>стационарная помощь</VMPNAME>
+    <DATEBEG>01.01.2005</DATEBEG>
+    <DATEEND>31.12.2006</DATEEND>
+  </zap>
+  <zap>
+    <IDVMP>302</IDVMP>
+    <VMPNAME>стационарная медицинская помощь</VMPNAME>
+    <DATEBEG>01.01.2007</DATEBEG>
+    <DATEEND>31.12.2007</DATEEND>
+  </zap>
+  <zap>
+    <IDVMP>303</IDVMP>
+    <VMPNAME>специализированная медицинская помощь, в том числе высокотехнологичная</VMPNAME>
+    <DATEBEG>01.01.2008</DATEBEG>
+    <DATEEND>31.12.2008</DATEEND>
+  </zap>
+</packet>
