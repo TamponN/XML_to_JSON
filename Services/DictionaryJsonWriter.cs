@@ -12,12 +12,12 @@ namespace app.Services {
                 
                 var options = new JsonSerializerOptions {
                     WriteIndented = true,
-                    Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping // Для избежания меток BOM
+                    Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping // Для минимального экранирования символов
                 };
 
                 string jsonString = JsonSerializer.Serialize(data, options); // Сериализуем входную ифнормацию в строку
 
-                File.WriteAllText(outputPath, jsonString, new UTF8Encoding(true)); // Записываем в файл с кодировкой utf-8
+                File.WriteAllText(outputPath, jsonString, new UTF8Encoding(false)); // Записываем в файл с кодировкой utf-8
                 
                 return true;
             }
