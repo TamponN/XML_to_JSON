@@ -15,7 +15,7 @@ namespace app.Services {
                     Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping // Для избежания меток BOM
                 };
 
-                string jsonString = JsonSerializer.Serialize(dictionaries, options); // Сериализуем входную ифнормацию в строку
+                string jsonString = JsonSerializer.Serialize(data, options); // Сериализуем входную ифнормацию в строку
 
                 File.WriteAllText(outputPath, jsonString, new UTF8Encoding(true)); // Записываем в файл с кодировкой utf-8
                 
